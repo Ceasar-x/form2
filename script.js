@@ -114,5 +114,8 @@ if (pAss.value === "") {
     if (user.value == "" && phone.value == "" && eMail.value == "" && pAss.value == "" && !checker.checked) {
         alert('Una just like to dey stress person, why una go just submit without filling form') ;
     }
+    if (userError.innerHTML == "Valid ✔" && phoneError.innerHTML == "Valid ✔" && emailError.innerHTML =="Valid ✔" && passError.innerHTML == "Valid ✔" && checker.checked){
+        alert('You have successfully regitered, Please check your email inbox for confirmation code.')
+    }
     
 }
