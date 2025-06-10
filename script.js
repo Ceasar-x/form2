@@ -112,7 +112,7 @@ if (pAss.value === "") {
         checkerror.innerHTML = ""
     }
     if (user.value == "" && phone.value == "" && eMail.value == "" && pAss.value == "" && !checker.checked) {
-        alert('Una just like to dey stress person, <br> why una go just submit without filling form') ;
+        alert('Una just like to dey stress person, why una go just submit without filling form') ;
     }
     
 }
